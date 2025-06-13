@@ -15,7 +15,13 @@ export default function Home() {
         </Link>
       </div>
       <div>
-        <Image className="w-full h-50" src="https://thumb.ac-illust.com/8d/8d0d48a87debf8144ac14b7dae7362ec_t.jpeg" alt="" />
+        <Image
+          className="w-full h-50"
+          width={600}
+          height={300}
+          src="https://thumb.ac-illust.com/8d/8d0d48a87debf8144ac14b7dae7362ec_t.jpeg"
+          alt="Habit Tracker image"
+        />
       </div>
     </div>
   );
